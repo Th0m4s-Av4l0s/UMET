@@ -10,4 +10,3 @@ altura = base**2
 #Multiplico la base * la altura entre parentesis, y luego
 # lo divido por 2
 print(f"area = {(base * altura) / 2}")
-

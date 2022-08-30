@@ -11,3 +11,4 @@ resto = a % b
 print(f"{a} dividio {b} es {division}");
 
 print(f"El resto es {resto}");
+
