@@ -68,7 +68,6 @@ while(eleccion < 1 or  eleccion > 3):
             elif(eleccion == 2):
                 print(f"{centimetros} centimetros a pulgadas = {centimetros / 2.54} pulgadas"); 
                 
-
             
         
             
