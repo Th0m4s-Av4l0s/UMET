@@ -1,13 +1,20 @@
+#Declaracion de variables
+pies = 0.0
+pulgadas = 0.0
+centimetros = 0.0
+
+#La variable pies recibe un valor float
 pies = float(input("Cantidad de pies a calcular: "))
-pulgadas = pies / 12
-centimetros = 2.54 / pulgadas
-print(f"Pulgadas  a pies= {pies / 12}");
 
-print(f"Yardas a pies = {pies / 3}");
 
-print(f"pulgadas a centimetros = {2.54 / pulgadas}")
+#En estos prints devuelven la medida equivalente a pies
+print(f"Pies a pulgadas= {pies * 12} pulgadas");
 
-print(f"metros a centimetros = {1000 / centimetros}")
+print(f"Pies a yardas= {pies / 3} yardas");
+
+print(f"Pies a centimetros = {pies * 30.48} pies");
+
+print(f"Pies a metros = {pies * 3.281}");
 
 
 
