@@ -47,7 +47,7 @@ while(cuadro_3 > 2000):
 
 
 if (antiguedad_cuadro1 == False and antiguedad_cuadro2 == False and antiguedad_cuadro3 == False):
-    print("Renover stock.")
+    print("Renovar stock.")
 
 else:
     print(f"Total de cuadros con antiguedad inferior a 10 años anterios al siglo XX = {total_antiguos}");
