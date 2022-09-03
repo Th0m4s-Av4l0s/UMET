@@ -1,10 +1,8 @@
-from unicodedata import decimal
-
 
 mes = int
-cantidad_ahorro = decimal
-porcentaje = decimal
-cantidad_restada = decimal
+cantidad_ahorro = 0.0
+porcentaje = 0.0
+cantidad_restada = 0.0
 
 
 mes = int(input("En que mes estamos?: "))
